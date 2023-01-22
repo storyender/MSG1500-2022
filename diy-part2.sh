@@ -15,5 +15,4 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 set network.wan.proto=pppoe
 set network.wan.username='szaf76331'
 set network.wan.password='10067914'
-commit network
-/etc/init.d/network restart
+
