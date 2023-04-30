@@ -12,7 +12,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-set network.wan.proto=pppoe
-set network.wan.username='szaf76331'
-set network.wan.password='10067914'
+sed network.wan.proto=pppoe
+sed network.wan.username='szaf76331'
+sed network.wan.password='10067914'
 
